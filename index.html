@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Patrick Duvall is a software developer with over four years of experience working with the iOS platform.">
+        <title>Patrick Duvall - iOS Mobile Software Development</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <header id="header">
+            <h1>Patrick Duvall</h1>
+            <h3>iOS Software Development</h3>
+        </header>
+        <div id="hexMenuContainer">
+            <svg id="hexMenu" viewBox="0 0 700 180">
+                <defs>
+                    <pattern id="p_mascot" x="0" y="0" width="1" height="1">
+                        <image width="120" height="120" xlink:href="appicons/mascot.png"/>
+                    </pattern>
+                    <pattern id="p_bricksearch" x="0" y="0" width="1" height="1">
+                        <image width="120" height="120" xlink:href="appicons/bricksearch.png"/>
+                    </pattern>
+                    <pattern id="p_icecrisis" x="0" y="0" width="1" height="1">
+                        <image width="120" height="120" xlink:href="appicons/icecrisis.png"/>
+                    </pattern>
+                    <pattern id="p_clouddiver" x="0" y="0" width="1" height="1" patternTransform="translate(-10,0)">
+                        <image width="120" height="120" xlink:href="appicons/clouddiver.png" />
+                    </pattern>
+                    <pattern id="p_dukes" x="0" y="-0.05" width="1" height="1">
+                        <image width="120" height="120" xlink:href="appicons/dukes.png"/>
+                    </pattern>
+                    <pattern id="p_reportaweed" x="0" y="-0.02" width="1" height="1">
+                        <image width="120" height="120" xlink:href="appicons/reportaweed.png"/>
+                    </pattern>
+                    <pattern id="p_epictab" x="0" y="-0.05" width="1" height="1">
+                        <image width="120" height="120" xlink:href="appicons/epictab.png"/>
+                    </pattern>
+                </defs>
+                <g>
+                    <polygon fill="url(#p_mascot)" id="mascot" points="30.0,-52.0 -30.0,-52.0 -60.0,0.0 -30,52 30,52 60,0" transform="translate(65,58)rotate(0)" onClick="swapContent(this.id)"></polygon>
+					<polygon fill="url(#p_icecrisis)" id="icecrisis" points="30.0,-52.0 -30.0,-52.0 -60.0,0.0 -30,52 30,52 60,0" transform="translate(255,58)rotate(0)" onClick="swapContent(this.id)"></polygon>
+					<polygon fill="url(#p_dukes)" id="dukes" points="30.0,-52.0 -30.0,-52.0 -60.0,0.0 -30,52 30,52 60,0" transform="translate(445,58)rotate(0)" onClick="swapContent(this.id)"></polygon>
+					<polygon fill="url(#p_epictab)" id="epictab" points="30.0,-52.0 -30.0,-52.0 -60.0,0.0 -30,52 30,52 60,0" transform="translate(635,58)rotate(0)" onClick="swapContent(this.id)"></polygon>
+                    <polygon fill="url(#p_bricksearch)" id="bricksearch" points="30.0,-52.0 -30.0,-52.0 -60.0,0.0 -30,52 30,52 60,0" transform="translate(160,120)rotate(0)" onClick="swapContent(this.id)"></polygon>
+                    <polygon fill="url(#p_clouddiver)" id="clouddiver" points="30.0,-52.0 -30.0,-52.0 -60.0,0.0 -30,52 30,52 60,0" transform="translate(350,120)rotate(0)" onClick="swapContent(this.id)"></polygon>
+                    <polygon fill="url(#p_reportaweed)" id="reportaweed" points="30.0,-52.0 -30.0,-52.0 -60.0,0.0 -30,52 30,52 60,0" transform="translate(540,120)rotate(0)" onClick="swapContent(this.id)"></polygon>
+                </g>
+            </svg>
+        </div>
+        <div id="columnsContainer">
+            <div id="screens">
+                <img id="ss_mascot" class="screenshot" src="screens/mascot1.png" alt="Mascot Secret">
+				<img id="ss_bricksearch" class="screenshot" src="screens/bricksearch1.png" alt="BrickSearch" style="display:none">
+                <img id="ss_icecrisis" class="screenshot" src="screens/icecrisis1.png" alt="Ice Crisis" style="display:none">
+                <img id="ss_dukes" class="screenshot" src="screens/dukes1.jpeg" alt="Duquesne University Athletics" style="display:none">
+                <img id="ss_clouddiver" class="screenshot" src="screens/clouddiver1.png" alt="Cloud Diver" style="display:none">
+                <img id="ss_epictab" class="screenshot" src="screens/epictab1.jpeg" alt="Epic Tab" style="display:none">
+                <img id="ss_reportaweed" class="screenshot" src="screens/reportaweed1.jpeg" alt="Report A Weed BC" style="display:none">
+            </div>
+            <main id="c_mascot" class="content">
+            <h2>Mascot Secret</h2>
+            MascotSecret is a fan engagement and inventory management system that lets venues and sports teams upgrade seats and improve fan experiences at live events.<br>
+            <ul>
+                <li>Allows users to browse available inventory and upgrade to better seats at live sporting events.</li>   
+                <li>Accurately scans ticket barcodes and credit cards using the iPhone's camera.</li>   
+                <li>Utilizes custom backend to interface with payment gateway and multiple ticketing systems.</li>   
+                <li>Developed for teams across multiple major leagues, including the Cleveland Cavaliers, Houston Rockets, Cleveland Indians, and Buffalo Sabres.</li>  
+            </ul>
+            </main>
+            
+            <main id="c_bricksearch" class="content" style="display:none">
+            <h2>BrickSearch</h2>
+            BrickSearch is the fastest and easiest way to find any LEGO set ever made! You can view photos of sets, piece counts, minifigures and building instructions. You can add sets to your collection, and keep a list of your favorites too!<br>
+            <ul>
+                <li>Powerful yet simple search allows users to quickly locate any LEGO set ever made.</li>   
+                <li>Photo gallery allows users to swipe through and examine photos of individual sets.</li>   
+                <li>Building instructions for sets can be opened in the user's choice of PDF viewing applications.</li>   
+                <li>Users can add sets to their collection and wanted lists, and find places to buy desired sets.</li>  
+                <li>Loved by users -- the vast majority of app store ratings are overwhelmingly positive (5 stars)!</li>
+                <li><a href="https://itunes.apple.com/us/app/bricksearch-for-lego-sets/id1317166952?mt=8" alt="BrickSearch on the iOS App Store">Available now on the app store!</a></li>
+            </ul>
+            </main>
+            
+            <main id="c_icecrisis" class="content" style="display:none">
+            <h2>Ice Crisis</h2>
+            The penguins are trapped in colored ice blocks and you are their only hope for escape! Only matching colored laser beams are strong enough to break through the thick ice. Use crystals of different shapes and colors to aim the beams at the matching ice blocks and free the penguins!<br>
+            <ul>
+                <li>4.5/5 star rating with over 300 user ratings in the USA and over 500 in the UK!</li>
+                <li>Intriguing and challenging puzzle game with charming, hand-drawn artwork.</li>   
+                <li>Attractive, functional and intuitive user interface.</li>   
+                <li>Users can earn achievements through Game Center, and purchase hints via In-app Purchase.</li>   
+                <li>Developed using UIKit, Core Animation, and Core Graphics.</li>  
+            </ul>
+            </main>
+            
+            <main id="c_dukes" class="content" style="display:none">
+            <h2>Duquesne University Athletics</h2>
+            The Official Duquesne University app is your go-to source for Dukes fans everywhere. It offers you breaking news, team schedules and rosters, seat upgrades, interactive social media and more. Get the latest Dukes information you need anytime you want it!<br>
+            <ul>
+                <li>View rosters for the university's basketball teams.</li>   
+                <li>Keep up to date on the team's social media feeds.</li>   
+                <li>Browse the calendar for scheduled games, and add them to My Games for quick viewing later.</li>   
+                <li>Get tickets to games, check out sponsors, or make a donation.</li>  
+            </ul>
+            </main>
+            
+            <main id="c_clouddiver" class="content" style="display:none">
+            <h2>Cloud Diver</h2>
+            Soar across the sky and zip through the clouds with only your parachute to slow you down! Become a Cloud Diver and see how long you can free fall through the atmosphere while avoiding incoming birds. With real physics and a different gameplay experience every time you play, no two sky dives are ever the same!<br>
+            <ul>
+                <li>One-tap interface allows for simple and intuitive parachute control.</li>   
+                <li>Procedurally generated scenery, obstacles, and powerups -- Every game is unique!</li>  
+                <li>Realistic impact physics through the use of the Box2D physics engine.</li>
+                <li>Developed using the cocos2D game engine, and utilizes Apple's Game Center for high score leaderboards.</li>   
+                <li>Users can view and share a screenshot of their demise at the end of every game.</li>  
+            </ul>
+            </main>
+            
+            <main id="c_epictab" class="content" style="display:none">
+            <h2>Epic Tab</h2>
+            EpicTab is a simple way to keep a running total of bills between you and your facebook friends. With the EpicTab app you can eliminate the fuss of messy IOU’s, and easily track the amount, location, and time of bills split amongst friends.<br>
+            <ul>
+                <li>Sign-in with Facebook and start tabs with your friends.</li>   
+                <li>Set favorites for quick, one-tap access to frequently tabbed friends</li>  
+                <li>Add information to each tab event, including notes and location (automatically determined by device GPS).</li>
+                <li>Utilizes custom PHP/mySQL backend for cloud storage of tabs and easy access from any device.</li>   
+                <li>Developed using multiple frameworks and APIs, including UIKit, MapKit, CoreLocation, Facebook Graph, and others.</li>  
+            </ul>
+            </main>
+            
+            <main id="c_reportaweed" class="content" style="display:none">
+            <h2>Report A Weed BC</h2>
+            The Report-a-Weed BC app lets you report weed sightings anywhere in BC, in just a few simple steps. Your report will go to one of BC's invasive plant specialists, who will coordinate follow-up activities with the appropriate local authorities. The app can be used off-line to create submissions as well; simply click ‘Submit’ and the report will be sent as soon as you are back in cell coverage. There’s a map of BC that displays the 500 most recent submission details, and you can search through images of all invasive plant species on the list.<br>
+            <ul>
+                <li>Browse a comprehensive list of invasive species, by common name, latin name, or flower color.</li>   
+                <li>View photo galleries for each species and zoom in to compare with samples in the field.</li>  
+                <li>Submit reports of invasive species sightings, along with the latitude and longitude provided by the device GPS, to the Invasive Species Council of British Columbia.</li>
+                <li>View a map of recent reported sightings throughout the province of British Columbia.</li>   
+                <li>Developed using UIKit, MapKit, CoreLocation and other frameworks.</li>  
+            </ul>
+            </main>
+            
+        </div>
+        <footer id="footer">
+            <div id="blurb">
+            Patrick Duvall is a software developer with over six years of experience working with the iOS platform. He earned a Bachelor of Applied Science in Computer Engineering from the University of British Columbia. When not glued to a computer, Patrick enjoys playing ice hockey, making noise on the guitar and drums, and spending time with his hilarious corgi.
+            </div>
+            <ul>
+                <li><a href="https://github.com/pduvall">GitHub</a></li>
+                <li><a href="https://itunes.apple.com/us/developer/patrick-duvall/id494536945">App Store</a></li>
+            </ul>
+        </footer>
+        <script>
+            function swapContent(senderID) {
+                var visibleContentNodeID = "c_" + senderID;
+                var visibleScreenshotNodeID = "ss_" + senderID;
+                hideAllExceptSelected(visibleContentNodeID, document.getElementsByClassName("content"));
+                hideAllExceptSelected(visibleScreenshotNodeID, document.getElementsByClassName("screenshot"));
+            }
+            function hideAllExceptSelected(selectedNodeID, contentNodes) {
+                for (var i = 0; i < contentNodes.length; i++) {
+                    if (contentNodes[i].id == selectedNodeID) {
+                        contentNodes[i].style.display = "inline-block";
+                    } else {
+                        contentNodes[i].style.display = "none";
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>
