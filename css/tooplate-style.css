@@ -34,11 +34,30 @@ h2 {
 	margin-top: 0;
 }
 
+.h1 {
+	padding: 0;
+	margin: none;
+}
+
 .tm-link-gray { color: #999999; }
 .tm-link-white { color: white; }
 
 li {
 	margin-top: 10px;
+}
+
+.title-container {
+	text-align: left;
+	border: 4px solid #222223;
+	padding: 20px 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: -4px;
+	margin-left: -4px;
+	border-radius: 15px 0px 15px 0px;
+	color: #FFF;
+	font-size: 2rem;
 }
 
 .tm-footer { 
@@ -55,7 +74,8 @@ li {
 }
 
 .tm-site-header { 
-	padding: 50px;
+	padding: 70px 50px 50px 50px;
+	position: relative;
 }
 
 .tm-flex-center {
@@ -65,20 +85,46 @@ li {
     justify-content: center;
 }
 
+.tm-about {
+	padding: 80px 50px 50px 50px;
+}
+
 .tm-about,
 .tm-contact {
     display: flex;
+    flex-wrap: wrap;
+    position: relative;
 }
 
 .tm-contact { flex-direction: row-reverse; }
-.tm-about > div { flex: 1 1; }
+
+.tm-threethings {
+	flex: 1 1;
+	color: #FFF;
+	padding: 0px 20px;
+}
+
+.tm-about-text { 
+	flex: 2 2; 
+}
+
+.tm-flex-fw {
+	padding-top: 20px;
+	flex: 0 0 100%;
+}
+
+.tm-about-image {
+	flex: 1 1;
+	padding: 20px;
+}
 
 .tm-contact-form-container,
 .tm-contact-info {
     width: 40%;
+    padding: 0px
 }
 
-.tm-contact-info { padding-top: 20px; }
+.tm-contact-info { padding-top: 40px; }
 .tm-contact-header { width: 20%; }
 
 .tm-contact-header {
